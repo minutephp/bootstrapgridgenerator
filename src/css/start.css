@@ -1,0 +1,97 @@
+div.rectangle, div.rectangle div {
+    border: 3px solid red;
+    position: absolute;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 0;
+    opacity: 0.8;
+}
+
+div.rectangle div {
+    opacity: 1.0;
+    border: 0px solid gray;
+    background-color: transparent;
+}
+
+body.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer
+}
+
+div.selected {
+    border-color: green;
+    background: rgba(255, 255, 0, 0.3);
+}
+
+i.topcorner {
+    width: 16px;
+    height: 16px;
+    background-image: url("chrome-extension://__MSG_@@extension_id__/src/css/images/top-corner.png");
+    background-repeat: no-repeat;
+    display: none;
+}
+
+div.selected i.topcorner {
+    display: block;
+}
+
+i.rightcorner {
+    width: 16px;
+    height: 16px;
+    background-image: url("chrome-extension://__MSG_@@extension_id__/src/css/images/bring-to-top.png");
+    background-repeat: no-repeat;
+    display: none;
+    right: 16px;
+    position: absolute;
+}
+
+div.selected i.rightcorner {
+    display: block;
+}
+
+#canvas {width: 1000px;height: 800px;}
+
+.topline{
+    position:absolute;
+    width: 1000%;
+    border-top:1px yellow dashed;
+    display:block;
+    vertical-align:middle;
+    margin-top:-3px;
+    margin-left:-250%;
+}
+.botline{
+    position:absolute;
+    width: 1000%;
+    bottom:-2px;
+    border-bottom:1px yellow dashed;
+    display:block;
+    vertical-align:middle;
+    margin-top:500px;
+    margin-left:-250%;
+}
+.leftline{
+    position:absolute;
+    height: 1000%;
+    left:-2px;
+    border-left:1px yellow dashed;
+    display:block;
+    vertical-align:middle;
+    margin-top:-250%;
+
+}
+.rightline{
+    position:absolute;
+    height: 1000%;
+    right:-2px;
+    border-right:1px yellow dashed;
+    display:block;
+    vertical-align:middle;
+    margin-top:-250%;
+
+}
