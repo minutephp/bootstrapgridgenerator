@@ -4,7 +4,7 @@ Create a bootstrap row/col grid by drawing rectangles over ANY website!
 
 ###How to install?###
 
-1. (https://chrome.google.com/webstore/detail/bootstrap-grid-generator/hnhmbddaldgbmknmobkokdjmgchclohp?utm_source=chrome-app-launcher-info-dialog)[Install the chrome extension]
+1. Install the chrome extension: http://goo.gl/xOuCXd
 2. Open any site
 3. Click the generate bootstrap grid icon
 4. Start drawing rectangles
